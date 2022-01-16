@@ -1,0 +1,9 @@
+#provider directory
+.terraform/*
+
+#state files
+*.tfstate
+*.tfstate.*
+
+#tfvar files may contain sensitive information.
+*.tfvars
